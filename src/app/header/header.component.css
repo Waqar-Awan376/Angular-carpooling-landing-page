@@ -1,0 +1,19 @@
+.navigation-item
+{
+  text-decoration: none;
+  color: #232323;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.3s;
+}
+.navigation-item:hover
+{
+  color: #457fee;
+  letter-spacing: 2.5px;
+  cursor: pointer;
+}
+.navigation-item-active
+{
+  color: #cd8119;
+  letter-spacing: 2.5px;
+}

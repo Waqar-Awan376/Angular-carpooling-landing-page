@@ -1,1 +1,31 @@
-/* You can add global styles to this file, and also import other style files */
+body
+{
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+.light-blue-text
+ {
+   color:#457fee;
+ }
+.dark-blue-text
+{
+  color: #1524ab;
+}
+.primary-btn
+{
+  background-color: #457fee;
+  border: none;
+  padding: 10px 15px 10px 15px;
+  border-radius: 10px;
+  width: 150px;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.primary-btn:hover
+{
+  background-color: #131c5b;
+  position: relative;
+  transform: scale(1.2);
+}
